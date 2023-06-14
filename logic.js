@@ -21,5 +21,7 @@ div.addEventListener("mouseover", function onmouseenter(event) {
 document.getElementById("main").appendChild(div);
 }
 
+var clear = document.getElementById("clear");
+
 
 
