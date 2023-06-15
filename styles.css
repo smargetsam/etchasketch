@@ -9,6 +9,7 @@
     grid-template-columns: 6.25% 6.25%  6.25% 6.25%  6.25% 6.25%  6.25% 6.25%  6.25% 6.25%  6.25% 6.25%  6.25% 6.25%  6.25% 6.25%;
     column-gap: 0px;
     float: left;
+    border-radius: 5px;
     
     
 }
@@ -21,5 +22,13 @@ div{
 
 #clear{
     padding: 20px;
-    
+
+}
+
+.usual-class{
+    background: #D3D3D3;
+}
+
+.new-class{
+    background: #D3D3D3;
 }

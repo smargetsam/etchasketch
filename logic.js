@@ -1,27 +1,34 @@
 
-for (let i = 0; i < 128; i++) {
+for (let i = 0; i < 256; i++) {
 
 var div = document.createElement("div");
 div.style.width = "30px";
 div.style.height = "30px";
-div.style.background = "#D3D3D3";
+div.classList.add("usual-class");
 
 
 
 div.addEventListener("mouseover", function onmouseenter(event) {
     // 👇️ change background color
     event.target.style.backgroundColor = 'black';
-
-    
-  
-    // 👇️ optionally change text color
-    // event.target.style.color = 'white';
   });
+
+  
   
 document.getElementById("main").appendChild(div);
 }
 
-var clear = document.getElementById("clear");
 
+var buton = document.getElementById("clear");
+  buton.addEventListener("click", changeColor);
+  
+  function changeColor(){
+  var updatecolor = document.querySelectorAll("div");
+  
 
+  for (let i = 0; i < updatecolor.length; i++) {
+    updatecolor[i].style.backgroundColor =  "#D3D3D3";
+  }
+}
 
+ 
