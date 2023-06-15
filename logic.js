@@ -23,10 +23,11 @@ var buton = document.getElementById("clear");
   buton.addEventListener("click", changeColor);
   
   function changeColor(){
-  var updatecolor = document.querySelectorAll("div");
-  
+  var updatecolor = document.querySelectorAll("div *:not(#outer-box)");
+  //exclude the div that is the outerbox from undergoing colour change on clear
 
   for (let i = 0; i < updatecolor.length; i++) {
+
     updatecolor[i].style.backgroundColor =  "#D3D3D3";
   }
 }
