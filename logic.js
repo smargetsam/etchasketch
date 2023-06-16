@@ -1,10 +1,12 @@
 
-for (let i = 0; i < 256; i++) {
+for (let i = 0; i < 400; i++) {
 
 var div = document.createElement("div");
-div.style.width = "30px";
-div.style.height = "30px";
+div.style.width = "25px";
+div.style.height = "25px";
+div.style.borderRadius = "1px";
 div.classList.add("usual-class");
+
 
 
 
@@ -28,7 +30,8 @@ var buton = document.getElementById("clear");
 
   for (let i = 0; i < updatecolor.length; i++) {
 
-    updatecolor[i].style.backgroundColor =  "#D3D3D3";
+    updatecolor[i].style.backgroundColor =   "#CBC0C0";
+    updatecolor[i].style.borderRadius = "1px";
   }
 }
 
