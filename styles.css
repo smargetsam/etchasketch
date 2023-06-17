@@ -8,8 +8,8 @@
 
     
     margin-top: 60px;
-    width: 600px;
-    height: 600px;
+    width: 360px;
+    height: 360px;
     margin-left:50px;
     background: #FC5E5E; 
     display: grid;
@@ -22,12 +22,14 @@
 
 
 #main{
-    
-    width: 500px;
-    height:500px;
+    margin-bottom:30px;
+    width: 300px;
+    height:270px;
     display: grid;
-    grid-template-columns: repeat(20, 5%);
-    float: left;    
+    grid-template-columns: repeat(30, 3.3333%);
+    float: left;   
+    border-radius: 1px; 
+    
     
    
   
@@ -39,22 +41,40 @@
 }
 
 
+.controls{
+    background-color: white;
+    z-index: 1;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    position:absolute;
+    top:380px;
+}
+
+#dial1{
+    left:130px;
+}
+
+#dial2{
+    right:850px;
+}
+
 #clear{
     text-align: center;  
+    letter-spacing: 1px;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     background: #FC5E5E;
     border-radius: 12px;
     width: 149px;
     height: 47px;
     border: 0px;
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: 800;
     color: #FFFFFF;
-    font-stretch: semi-expanded;
     position:absolute;
-    left:270px;
+    left:160px;
     transition: ease-in;
     
 }
