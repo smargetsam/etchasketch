@@ -24,9 +24,10 @@ document.getElementById("main").appendChild(div);
 
 var buton = document.getElementById("clear");
   buton.addEventListener("click", changeColor);
+
   
   function changeColor(){
-  var updatecolor = document.querySelectorAll("div *:not(#outer-box,#main,.controls)");
+  var updatecolor = document.querySelectorAll("div *:not(#outer-box,#main,#panel, #dial1, #dial2)");
   //exclude the div that is the outerbox from undergoing colour change on clear
 
   for (let i = 0; i < updatecolor.length; i++) {
@@ -34,6 +35,11 @@ var buton = document.getElementById("clear");
     updatecolor[i].style.backgroundColor =   "#CBC0C0";
    
   }
+  
+
+
+  
+
 }
 
  
