@@ -80,8 +80,8 @@
 }
 
 #clear:hover{
-    transition-delay: 0.1s;
-    transform: scale(1.2);
+
+    transform: scale(1.05);
     cursor:pointer;
 }
 
