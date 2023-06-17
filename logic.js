@@ -26,8 +26,11 @@ var buton = document.getElementById("clear");
   buton.addEventListener("click", changeColor);
 
   
+
+
+
   function changeColor(){
-  var updatecolor = document.querySelectorAll("div *:not(#outer-box,#main,#panel, #dial1, #dial2)");
+  var updatecolor = document.querySelectorAll("div *:not(#outer-box,#main,#panel, #dial1, #dial2,h1)");
   //exclude the div that is the outerbox from undergoing colour change on clear
 
   for (let i = 0; i < updatecolor.length; i++) {

@@ -4,12 +4,22 @@
 
   }
 
+  h1{
+    text-align:center;
+    font-family: "Sofia";
+    font-weight:100;
+    font-size: medium;
+    color:#FFE3B8;
+    background: #FC5E5E;
+
+}
+
   #outer-box{
 
     
     margin-top: 60px;
     width: 360px;
-    height: 360px;
+    height: 370px;
     margin-left:50px;
     background: #FC5E5E; 
     display: grid;
@@ -22,7 +32,7 @@
 
 
 #main{
-    margin-top:30px;
+    margin-bottom:10px;
     width: 300px;
     height:270px;
     display: grid;
@@ -44,6 +54,7 @@
     background-color: #FC5E5E;
     height:30px;
     width:300px;
+    margin-bottom: 5px;
     display:flex;
 }
 
@@ -64,10 +75,7 @@
     
 }
 
-#dial2{
-     
-  
-}
+
 
 #clear{
     text-align: center;  
